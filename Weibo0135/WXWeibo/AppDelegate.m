@@ -61,7 +61,7 @@
     _menuCtrl.leftViewController = leftCtrl;
     _menuCtrl.rightViewController = rightCtrl;
 
-    //初始化微博对象
+    //初始化微博对象   
     [self _initSinaWeibo];
     
     self.window.rootViewController = _menuCtrl;
